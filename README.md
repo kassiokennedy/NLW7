@@ -1,1 +1,1 @@
-# NLW7
+# NLW7 - Curso da Rocketseat
