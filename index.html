@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,39 +12,41 @@
       rel="stylesheet"
     />
     <title>NLW7</title>
-    <script src="main.js"></script>
   </head>
   <body>
     <main>
       <div class="container">
         <div class="avatar">
+          <!--Imagem de Perfil-->
           <span>
             <img src="images/build.svg" alt="Selo" />
           </span>
           <img src="images/fred.svg" alt="Foto pessoal" />
         </div>
-        <h1>Kassio Vieira</h1>
+        <h1 id="userName">Kassio Vieira</h1>
+        <!--Github-->
         <a href="https://github.com/kassiokennedy" target="_blank">
           <img src="images/github.svg" alt="Icone do github" /> kassiokennedy</a
         >
         <p>Engenheiro eletrônico e apaixonado por luthieria</p>
-        <ul>
-          <li>
-            <a href="https://pt-br.facebook.com/" target="_blank">
-              <img src="images/facebook.svg" alt="icone do facebook" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img src="images/instagram.svg" alt="icone do instagram" />
-            </a>
-          </li>
-          <li>
+        <!--Icones com links das redes sociais-->
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="https://www.youtube.com/" target="_blank">
               <img src="images/youtube.svg" alt="icone do youtube" />
             </a>
           </li>
-          <li>
+          <li class="facebook">
+            <a href="https://pt-br.facebook.com/" target="_blank">
+              <img src="images/facebook.svg" alt="icone do facebook" />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="images/instagram.svg" alt="icone do instagram" />
+            </a>
+          </li>
+          <li class="twiter">
             <a href="https://twitter.com/" target="_blank">
               <img src="images/twiter.svg" alt="icone do twiter" />
             </a>
@@ -54,5 +54,6 @@
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
