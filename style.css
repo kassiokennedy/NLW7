@@ -19,10 +19,10 @@ h1 {
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
-  color: var(--grey);
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+  min-height: 812px;
 }
 .container {
   max-width: 250px;
@@ -30,6 +30,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  color: var(--grey);
 }
 .avatar {
   width: 10rem;
